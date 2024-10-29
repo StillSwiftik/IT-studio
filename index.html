@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrraper">
+        <!-- header -->
+        <header class="header">
+            <nav class="nav container">
+                <ul class="menu__list">
+                    <li class="list__item active"><a href="#" class="link__item">Главная</a></li>
+                    <li class="list__item"><a href="#" class="link__item">Наши проекты</a></li>
+                    <li class="list__item"><a href="#" class="link__item">Услуги</a></li>
+                    <li class="list__item"><a href="#" class="link__item">Новости</a></li>
+                    <li class="list__item"><a href="#" class="link__item">Контакты</a></li>
+                </ul>
+
+                <!-- Бургер меню кнопка -->
+                <div class="show__burger_menu">
+                    <button class="show__burger_menu_btn"><i class="fa-solid fa-bars"></i></button>
+                </div>
+
+
+            </nav>
+            <div class="header__info">
+                <p class="info__text">Передовая IT студия</p>
+                <h1 class="title__text">Мы создаем легкие решения 
+                    сложных задач и проблем</h1>
+                <button class="header__main_btn btn__primary show__modal_trigger">Наши проекты</button>
+            </div>
+        </header>
+        <!-- main -->
+         <main class="main">
+            <!-- first pagee -->
+            <div class="first__bg">
+                <h2 class="title__main">Мы создаем мобильные приложения
+                    для крупных корпораций</h2>
+                <p class="info__main_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+                <div class="main__blocks">
+                    <!-- Добавлю через js т.к. повторение-->
+                </div>
+                <button class="main__btn_button btn__primary show__modal_trigger">Все услуги</button>
+            </div>
+            <!-- second pagee -->
+             <div class="second__bg">
+                <div class="main__types_block">
+                <div class="main__types">
+                    <h3 class="main__types_title">Высокие стандарты
+                        разработки</h3>
+                    <p class="main__types_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.  стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+                    <a href="#" class="main__types_link">Подробнее о компании</a>
+                </div>
+                <div class="main__types_img">
+                    <img src="img/Rectangle 2.png" alt="">
+                </div>
+              </div>
+              <div class="projects__blocks">
+                <!-- Добавлю через js -->
+
+              </div>
+            </div>
+            <!-- third pagee -->
+            <div class="third__bg">
+                <div class="third__bg_block">
+                    <h3 class="main__text_example">Наши работы, на которых 
+                        мы специализируемся</h3>
+                    <button class="example__btn_button btn__primary show__modal_trigger">Все услуги</button>
+                    
+                </div>
+                <div class="third__bg_scd_block">
+                    <!-- Добавлю через js -->
+
+                </div>
+            </div>
+            <!-- fourth pagee -->
+             <div class="fourth__bg">
+                <div class="frth__bg_contains">
+                    <h2 class="frth__title_contain">Наши проекты</h2>
+                    <p class="frth__text_contain">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </p>
+                    <div class="frth__images_contains">
+                        <!-- тут опять js -->
+                    </div>
+                    <button class="frth__btn_button btn__primary show__modal_trigger">Все услуги</button>
+                </div>
+            </div>
+            <!-- fives pagee -->
+            <div class="fives__bg">
+                <div class="frth__bg_contains">
+                    <h2 class="fvs__title_contain">Видео о нашей работе</h2>
+                    <p class="fvs__text_contain">Просто посмотрите, как мы работаем</p>
+                    <div class="main__video">
+                        <button class="video__btn"><img src="img/play-button.png" alt=""> <span>Смотреть видео</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="last__bg">
+                <div class="last__bg_contains">
+                    <h3 class="last__bg_title">Подпишитесь на нашу рассылку</h3>
+                    <p class="last__bg_text">Полезные статьи, акции, новости - получите все это сейчас!</p>
+                    <form action="" class="main__form">
+                        <input type="email" class="main__input" placeholder="Ваш e-mail" name="e-mail" required>
+                        <button class="last__btn btn__primary" type="submit">Подписаться</button>
+                    </form>
+                    <p class="last__bg_text_info">Мы не шлем спам, и передаем никому ваши данные.</p>
+                    
+                </div>
+            </div>
+         </main>
+         <!-- Наконец-то уже footer -->
+          <footer class="footer">
+            <div class="footer__main">
+                <!-- Добавлено через js -->
+            </div>
+            <div class="footer__down">
+                <a class="footer__down_text" href="#">&copy; 2019. Все права защищены.</a>
+            </div>
+          </footer>
+    </div>
+    <div class="show__modal hidden">
+        <div class="wrap__exit">
+            <div class="exit__btn">&times;</div>
+        </div>
+        <div class="show__modal_main">
+            <div class="info__main_block rotate__left">
+                <div class="main__image_block">
+                    <div class="block__image__border">
+                        <img src="img/project.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="info__main_block rotate__center">
+                <div class="main__image_block">
+                    <div class="block__image__border">
+                        <img src="img/cart.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="info__main_block rotate__right">
+                <div class="main__image_block">
+                    <div class="block__image__border">
+                        <img src="img/project.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="show__modal_contain">
+            <h3 class="show__modal_title">Лучшие сайты только у нас(адаптив не доделал)</h3>
+            <p class="show__modal_text">Выбирите вид сайта</p>
+            <div class="show__modal_buyer">
+                <div class="show__modal_buy">
+                    <h3 class="show__modal_buy_title">NEWBUY</h3>
+                    <p class="show__modal_buy_advice">Скидка <span style="font-weight: bold;">-0%</span></p>
+                    <p class="show__modal_buy_text">Стоимость:<br><span>10 &euro;</span></p>
+                    <button class="show__modal_buy_btn btn__primary">Выбрать</button>
+                </div>
+                <div class="show__modal_buy">
+                    <h3 class="show__modal_buy_title">JUNIOR</h3>
+                    <p class="show__modal_buy_advice">Скидка <span style="font-weight: bold;">-5%</span></p>
+                    <p class="show__modal_buy_text">Стоимость:<br><span>20 &euro;</span></p>
+                    <button class="show__modal_buy_btn btn__primary">Выбрать</button>
+                </div>
+                <div class="show__modal_buy">
+                    <h3 class="show__modal_buy_title">ETERNITY</h3>
+                    <p class="show__modal_buy_advice">Скидка <span style="font-weight: bold;">-15%</span></p>
+                    <p class="show__modal_buy_text">Стоимость:<br><span>30 &euro;</span></p>
+                    <button class="show__modal_buy_btn btn__primary">Выбрать</button>
+                </div>
+            </div>
+            <button class="show__modal_main_buy_btn btn__primary error">Укажите вид покупки!</button>
+        </div>
+    </div>
+
+    <!-- Бургер меню -->
+    <div class="burger__menu">
+
+        <div class="blur__for_burger_menu">
+            <div class="burger__menu_close">
+                <button class="burger__menu_close_btn">&times;</button>
+            </div>
+            <h2 class="burger__menu_title">Бургер меню(адаптив не доделал)</h2>
+            <ul class="menu__list_burger">
+                <li class="list__item active"><a href="#" class="link__item">Главная</a></li>
+                <li class="list__item"><a href="#" class="link__item">Наши проекты</a></li>
+                <li class="list__item"><a href="#" class="link__item">Услуги</a></li>
+                <li class="list__item"><a href="#" class="link__item">Новости</a></li>
+                <li class="list__item"><a href="#" class="link__item">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="scroll__up hidden__scroll">
+       <i class="fa-solid fa-chevron-up"></i>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

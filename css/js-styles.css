@@ -1,0 +1,164 @@
+/* Только для удобства */
+/* Стили для элементов из js */
+
+/* Стили картинки */
+
+.main__image_block {
+    width: 90px;
+    height: 90px;
+    border: 10px solid #E0E0E0;
+    border-radius: 100%;
+}
+.block__image__border {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #4985FF;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block__image__border img {
+    width: 40px;
+    height: 40px;
+}
+
+/* настройка расположения */
+
+.info__main_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    width: 353px;
+    height: 139px;
+}
+.block__title {
+    width: 226px;
+    height: 23px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+}
+.block__text {
+    width: 222px;
+    height: 58px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 22.19px;
+    text-align: left;
+    color: #999;
+}
+
+.text__elements_block {
+    width: 226px;
+    height: 93px;
+}
+
+/* second bg настрйока */
+
+.projects__blocks {
+    width: 104px;
+    height: 67px;
+    text-align: center;
+}
+.projects__item_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.projects__item_flex img {
+    width: 30px;
+    height: 30px;
+}
+.project__item_count {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 52.66px;
+    text-align: left;
+}
+
+.projects__item_text {
+    width: 100px;
+    height: 15px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25.36px;
+    text-align: left;
+    color: #999999;
+
+    
+}
+
+.image__block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.image__block_title {
+    max-width: 281px;
+    height: 17px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.image__block_text {
+    max-width: 350px;
+    height: 117px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 25.36px;
+    text-align: left;
+    color: #999999;
+
+}
+.image__block_link {
+    max-width: 97px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #4985FF;
+    border-bottom: 2px solid #4985FF;
+}
+
+.frth__images_contains {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 70px 0 0 0;
+}
+.footer__main_title {
+    width: 100%;
+    height: 17px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.footer__main_contain {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+.footer__main_text {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #999;
+}
+
